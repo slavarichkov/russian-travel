@@ -1,0 +1,22 @@
+.cover {
+    position: relative;
+    background-image: url(../../images/__background.png);
+    background-repeat: no-repeat;
+    max-width: 1184px;
+    height: 33.19vh;
+    background-size: cover;
+    margin: 92px auto 0;
+    z-index: 0;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 767px) {
+    .cover {
+        margin-top: 60;
+    }
+}

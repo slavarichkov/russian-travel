@@ -1,0 +1,14 @@
+.subtitle_lead {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 1.4;
+    letter-spacing: 1.5px;
+    max-width: 158px;
+    max-height: 14px;
+}
+
+@media screen and (max-width: 960px) {
+    .subtitle_lead {
+        padding: 8px 24px 0;
+    }
+}
