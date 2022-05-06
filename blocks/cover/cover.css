@@ -3,7 +3,7 @@
     background-image: url(../../images/__background.png);
     background-repeat: no-repeat;
     max-width: 1184px;
-    height: 33.19vh;
+    height: 77.15vh;
     background-size: cover;
     margin: 92px auto 0;
     z-index: 0;
@@ -12,6 +12,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+
+@media screen and (max-width: 1279px) {
+    .cover {
+        height: 66.59vh;
+    }
+}
+
+
+@media screen and (max-width: 1023px) {
+    .cover {
+        height: 50.59vh;
+    }
 }
 
 
