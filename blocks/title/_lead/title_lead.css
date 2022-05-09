@@ -4,6 +4,7 @@
     line-height: 100px;
     max-width: 720px;
     max-height: 200px;
+    padding: 48px 0 0;
     margin: 0 auto 0;
 }
 
@@ -11,8 +12,6 @@
     .title_lead {
         font-size: 40px;
         line-height: 44px;
-        padding: 0 16px 0;
-        /* max-width: 288px; */
-        
+        padding: 48px 7px 0;
     }
 }
