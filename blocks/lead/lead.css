@@ -1,6 +1,26 @@
 .lead {
     display: flex;
     flex-direction: column;
-    padding: 56px auto 0;
+    padding: 0 148px 0;
     align-items: center;
+}
+
+
+@media screen and (max-width: 1279px) {
+    .lead {
+        padding: 0 48px 0;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .lead {
+        padding: 0 24px 0;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .lead {
+        padding: 0;
+    }
 }

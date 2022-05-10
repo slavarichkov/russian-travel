@@ -4,12 +4,12 @@
     font-size: 18px;
     line-height: 163%;
     color: #FFFFFF;
-    margin: 0;
-    padding-top: 26px;
+    margin: 26px 0 0;
+    font-family: 'Inter', Arial, sans-serif;
 }
 
 .place__paragraph:nth-child(1) {
-    padding-top: 0;
+    margin-top: 0;
 }
 
 
@@ -22,6 +22,6 @@
 
 @media screen and (max-width: 625px) {
     .place__paragraph {
-        margin:0 16px 0;
+        margin: 0 16px 0;
     }
 }

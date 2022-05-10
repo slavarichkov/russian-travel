@@ -14,7 +14,7 @@
 
 @media screen and (max-width: 1279px) {
     .place {
-        padding: 0 48px 0;
+        padding: 80px 48px 0;
     }
 }
 
@@ -23,22 +23,22 @@
     .place {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(auto-fit, minmax(min-content, max-content));
-        padding: 73 24px 0;
+        padding: 73px 24px 0;
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .place {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(auto-fit, minmax(min-content, max-content));
-        margin: 50px 16px 0;
         row-gap: 32px;
+        padding: 50px 24px 0;
     }
 }
 
 @media screen and (max-width: 625px) {
     .place {
         grid-template-columns: minmax(min-content, max-content);
-        padding: 0 0 0;
+        padding: 50px 0 0;
     }
 }
