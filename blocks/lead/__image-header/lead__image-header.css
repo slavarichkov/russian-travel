@@ -1,0 +1,16 @@
+.lead__image-header {
+    padding-top: 64px;
+    width: 100%;
+}
+
+@media screen and (max-width: 1279px) {
+    .lead__image-header {
+        padding-top: 56px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .lead__image-header {
+        padding-top: 40px;
+    }
+}

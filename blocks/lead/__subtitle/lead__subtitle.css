@@ -1,0 +1,23 @@
+.lead__subtitle {
+    font-family: 'Inter', Arial, sans-serif;
+    color: white;
+    font-style: normal;
+    margin: 0;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 620px;
+    max-height: 72px;
+    padding: 32px 0 0;
+
+}
+
+@media screen and (max-width: 767px) {
+    .lead__subtitle {
+        padding: 16px 0 0;
+        font-size: 16px;
+        line-height: 20px;
+    }
+}

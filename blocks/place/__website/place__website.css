@@ -1,0 +1,12 @@
+.place__website {
+    font-family: 'Inter', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+}
+
+@media screen and (max-width: 625px) {
+    .place__website {
+        margin:0 16px 0;
+    }
+}

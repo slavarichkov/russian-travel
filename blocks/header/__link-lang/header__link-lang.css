@@ -9,6 +9,10 @@
     padding-right: 18px;
 }
 
+.header__link-lang:hover {
+    opacity: 0.8;
+}
+
 .header__link-lang:nth-child(2) {
     padding-right: 0;
     text-decoration: none;
