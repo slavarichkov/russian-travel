@@ -2,8 +2,8 @@
   font-family: 'Inter';
   font-weight: 400;
   src: url("./Inter-Regular.woff") format("woff");
-  -webkit-font-smoothing: antialiased; 
-  -moz-osx-font-smoothing: grayscale; 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 @font-face {
@@ -11,7 +11,7 @@
   font-weight: 700;
   src: url("./Inter-Bold.woff") format("woff");
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;  
+  -moz-osx-font-smoothing: grayscale;
 }
 
 @font-face {
@@ -19,5 +19,5 @@
   font-weight: 900;
   src: url("./Inter-Black.woff") format("woff");
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;  
+  -moz-osx-font-smoothing: grayscale;
 }
