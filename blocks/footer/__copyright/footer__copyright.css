@@ -2,9 +2,18 @@
     font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 112%;
+    font-size: 14px;
+    line-height: 16px;
     color: #FFFFFF;
     text-decoration: none;
     margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (max-width: 767px) {
+    .footer__copyright {
+        font-size: 14px;
+        line-height: 14px;
+    }
 }
