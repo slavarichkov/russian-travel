@@ -3,6 +3,9 @@
     background-color: #2A2C2F;
     padding: 0;
     margin: 0 auto 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
 }
 
 @media screen and (max-width: 320px) {

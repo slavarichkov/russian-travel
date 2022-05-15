@@ -8,8 +8,6 @@
     text-decoration: none;
     padding-left: 18px;
     margin: 0;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
 }
 
 .footer__link:hover {

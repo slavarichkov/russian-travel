@@ -11,8 +11,6 @@
     font-size: 72px;
     line-height: 1.06;
     position: relative;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
 }
 
 @media screen and (max-width: 767px) {
